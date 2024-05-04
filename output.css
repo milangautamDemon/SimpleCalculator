@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components{
+    .btn-primary{
+        @apply py-4 w-16 flex justify-center items-center text-xl font-bold rounded-lg;
+    }
+    .btn-primary-color{
+        @apply bg-white text-black;
+    }
+    .btn-secondary-color{
+        @apply bg-white text-orange-500;
+    }
+    .btn-highlight-color{
+        @apply bg-orange-500 text-white;
+    }
+}

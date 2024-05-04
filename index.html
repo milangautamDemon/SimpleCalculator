@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Calculator</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="./output.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        
+        <div class="main-container w-screen h-screen flex justify-center items-center bg-gradient-to-r from-gray-300 to-gray-400">
+            <div class="w-96 h-4/5 flex flex-col justify-between bg-transparent shadow-md shadow-black/40 rounded-md px-6 py-8">
+                <input type="text" id="numInput" class="px-4 py-6 border-none text-xl font-bold outline-none text-black bg-transparent shadow-md shadow-black/20 text-end" readonly />
+                <div class="btns-rows flex justify-between items-center">
+                    <button class="btn-primary btn-secondary-color">AC</button>
+                    <button class="btn-primary btn-secondary-color">C</button>
+                    <button class="btn-primary btn-secondary-color">%</button>
+                    <button class="btn-primary btn-secondary-color">/</button>
+                </div>
+                <div class="btns-rows flex justify-between items-center">
+                    <button class="btn-primary btn-primary-color">7</button>
+                    <button class="btn-primary btn-primary-color">8</button>
+                    <button class="btn-primary btn-primary-color">9</button>
+                    <button class="btn-primary btn-secondary-color">*</button>
+                </div>
+                <div class="btns-rows flex justify-between items-center">
+                    <button class="btn-primary btn-primary-color">4</button>
+                    <button class="btn-primary btn-primary-color">5</button>
+                    <button class="btn-primary btn-primary-color">6</button>
+                    <button class="btn-primary btn-secondary-color">-</button>
+                </div>
+                <div class="btns-rows flex justify-between items-center">
+                    <button class="btn-primary btn-primary-color">1</button>
+                    <button class="btn-primary btn-primary-color">2</button>
+                    <button class="btn-primary btn-primary-color">3</button>
+                    <button class="btn-primary btn-secondary-color">+</button>
+                </div>
+                <div class="btns-rows flex justify-between items-center">
+                    <button class="btn-primary btn-secondary-color">()</button>
+                    <button class="btn-primary btn-primary-color">0</button>
+                    <button class="btn-primary btn-secondary-color">.</button>
+                    <button class="btn-primary btn-highlight-color">=</button>
+                </div>
+            </div>
+
+        </div>
+        
+        <script src="./script.js" async defer></script>
+    </body>
+</html>
